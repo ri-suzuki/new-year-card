@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<body>
+  <div class="container">
+    <h1 class="header-text gaming">あけおめ</h1>
+    <h1 class="header-text gaming">ことよろ</h1>
+    <img src="src/23360326.png">
+  </div>
+</body>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+  }
+
+  .header-text {
+    font-size: 6em;
+    text-align: center;
+  }
+
+  .main-text {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .container {
+    height: 844px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .gaming {
+    /* アニメーションの長さ */
+    animation: gaming 5s linear infinite;
+    animation-delay: 10s;
+  }
+
+  @keyframes gaming {
+    /* 色の指定 */
+    0% { color: Magenta; }
+    33% { color: yellow; }
+    66% { color: Cyan; }
+    100% { color: Magenta; }
+  }
+
+</style>
+</html>
